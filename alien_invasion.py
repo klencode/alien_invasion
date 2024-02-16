@@ -11,7 +11,7 @@ class AlienInvasion:
 
     def __init__(self):
         """Initialize the game, and create game resources."""
-        pygame.int()
+        pygame.init()
         
         self.clock = pygame.time.Clock()
         self.settings = Settings()
@@ -41,6 +41,10 @@ class AlienInvasion:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_RIGHT:
+                    # Move the ship to the right.
+                    self.ship.rect.x += 1
 
     def _update_screen(self):
         """Update images on the screen, and flip to the new screen."""
