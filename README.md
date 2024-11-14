@@ -16,6 +16,8 @@ Alien Invasion is a classic arcade-style shooting game inspired by the iconic *S
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
+- [Acknowledgment](#acknowledgments)
 
 ## Features
 - Classic arcade-style gameplay.
